@@ -1,0 +1,26 @@
+/* VARIABLES GENERALES */
+:root{
+
+/* VARIABLES GENERALES DE PALETA E COLORES DE UABC */
+    --green-uabc: #048C3A    ;
+    --yellow-uabc:#FFB502 ;
+    --purple-uabc:#9B4EAD ;
+    --pink-uabc:#CC3366;
+    /* ESCALA DE VERDES */
+    --green-100: #048C3A    ;
+    --green-75: #3F956F;
+    --green-50:#7FBAA1;
+    --green-25: #C0DBCE;
+    /* ESCALA DE AMARILLOS */
+    --yellow-100: #FFB502;
+    --yellow-75: #FFB502    ;
+    --yellow-50: #FEDF88;
+    --yellow-25:#FFEDC3 ;
+    /* ESCALA DE GRISES */
+    --Black-100: #000000;
+    --Black-Text: #FFEDC3; 
+    --Grey-1: #222222; 
+    --Grey-2: #212529; 
+    --GreyLight: #565A5C;
+    --BG-Inputs: #E9EFF2;
+}
