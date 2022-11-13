@@ -1,0 +1,35 @@
+.conten{
+    background-color: #048C3A;
+}
+
+.seConten{
+    padding: 3rem;
+    color: white;
+}
+
+.body{
+    background-color: rgb(232, 232, 232);
+}
+
+.Wbox{
+    background-color: white;
+    border-radius: 6px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.content{
+    margin: 2rem;
+}
+
+.contents{
+    margin-left: 3rem;
+}
+.searchs{
+    margin-top: 1rem;
+    margin-left: 18rem;
+}
+
+.tabl3{
+    margin: 3rem;
+}
