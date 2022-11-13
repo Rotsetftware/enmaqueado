@@ -1,0 +1,24 @@
+.conten{
+    background-color: white;
+    border-radius: 5px;
+    margin: 3rem;
+    padding: 2rem;
+    box-shadow: 3px;
+}
+.body{  
+    background-color: rgb(232, 232, 232);
+}
+
+.cursos{
+    text-align: right;
+}
+
+.cards{
+    margin: 2px;
+    margin-left: 3rem;
+}
+
+.tems{
+    margin: 2rem;
+    margin-left: 3rem;
+}
