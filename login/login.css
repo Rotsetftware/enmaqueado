@@ -1,0 +1,35 @@
+.formulario{
+    margin-top: 59px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-bottom: 59px;
+    background-color: #048C3A;
+    padding: 50px;
+    border-radius: 15px;
+    width:64rem;
+    height: 35rem;
+}
+
+.image{
+    text-align:end;
+}
+
+.titulo{
+    text-align: center;
+    color: white;
+}
+
+
+.aviso{
+    font-size: small;
+    color: white;
+}
+
+.bodi{
+    background-color: #E5E5E5;
+}
+
+.nab{
+    background-color: white;
+    color: black;
+}
