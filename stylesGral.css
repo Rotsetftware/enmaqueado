@@ -12,7 +12,7 @@
   /* ESCALA DE VERDES */
   --green-100: #048c3a;
   --green-75: #3f956f;
-  --green-50: #7fbaa1;
+  --gren-50: #7fbaa1;
   --green-25: #c0dbce;
   /* ESCALA DE AMARILLOS */
   --yellow-100: #ffb502;
@@ -36,10 +36,12 @@ body {
   font-family: var(--fontMons);
 }
 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 700;
   font-size: 48px;
+  color: white;
   line-height: 52px;
-  color: var(--Black-100);
 }
 h2 {
   font-family: "Montserrat";
@@ -77,6 +79,9 @@ h6 {
   font-weight: 500;
   line-height: 19px;
   font-size: 16px;
+}
+ul  li a{
+  color: red;
 }
 .text_buttons {
   font-family: "Montserrat";
