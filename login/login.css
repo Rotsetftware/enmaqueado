@@ -1,18 +1,45 @@
+:root {
+
+    /* VARIABLES GENERALES DE PALETA E COLORES DE UABC */
+    --green-uabc: #048c3a;
+    --yellow-uabc: #ffb502;
+    --purple-uabc: #9b4ead;
+    --pink-uabc: #cc3366;
+    /* ESCALA DE VERDES */
+    --green-100: #048c3a;
+    --green-75: #3f956f;
+    --gren-50: #7fbaa1;
+    --green-25: #c0dbce;
+    /* ESCALA DE AMARILLOS */
+    --yellow-100: #ffb502;
+    --yellow-75: #ffb502;
+    --yellow-50: #fedf88;
+    --yellow-25: #ffedc3;
+    /* ESCALA DE GRISES */
+    --Black-100: #000000;
+    --Black-Text: #ffedc3;
+    --Grey-1: #222222;
+    --Grey-2: #212529;
+    --GreyLight: #565a5c;
+    --BG-Inputs: #e9eff2;
+    --color-white: #fff
+    /* VARIABLES PARA LAS LETRAS */
+    --fontMons: "Montserrat", sans-serif;
+  }
+  
 .formulario{
     margin-top: 59px;
     margin-left: 250px;
     margin-right: 250px;
     margin-bottom: 59px;
-    background-color: #048C3A;
+    background-color: var(--green-100);
     padding: 50px;
     border-radius: 15px;
     width:64rem;
     height: 35rem;
 }
 
-.image{
-    text-align:end;
-}
+
 
 .titulo{
     text-align: center;
@@ -25,11 +52,27 @@
     color: white;
 }
 
-.bodi{
-    background-color: #E5E5E5;
-}
-
-.nab{
+.navbar {
     background-color: white;
-    color: black;
-}
+    
+  }
+  .nav-link{
+    color: var(--Black-100);
+  }
+  .nav-link:hover{
+    color: var(--green-100);
+  }
+  .btn{
+    font-weight: 600;
+  }
+  .btn_primary, .btn_primary:hover{
+    background-color: var(--green-100);
+  }
+  .btn_secondary, .btn_secondary:hover{
+    background-color: var(--green-25);
+  }
+  .btn_secondary_outline, .btn_secondary_outline:hover{
+    border:solid 1px var(--yellow-100);
+    color: var(--yellow-100);
+    font-weight: 800;
+  }
