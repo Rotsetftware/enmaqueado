@@ -1,0 +1,93 @@
+:root {
+    --color-dark: #F2F2F2;
+    --color-dark-x: #F2F2F2;
+    --color-dark-xx: #F2F2F2;
+    --color-light: #ffffff;
+    --color-grey: #f5f6f8;
+}
+
+body {
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 300;
+    background-color: #E9EFF2;
+    color: var(--color-light);
+    letter-spacing: .05rem;
+}
+.input form-group{
+    background-color: E9EFF2 !important ;  
+}
+.h1{
+    font-size: 3rem;
+}
+.bg-light {
+    background-color: var(--color-light)!important;
+}
+
+.row {
+    background-color: #F2F2F2!important;
+}
+
+.p-6 {
+    padding: 4rem 7rem;
+}
+
+.contact-box {
+    padding: 3rem;
+    background-color: #F2F2F2!important;
+
+}
+
+.btn {
+    font-weight: 400;
+    padding: 1rem 2rem;
+    border-radius: 5rem;
+    min-width: 10rem;
+}
+
+.btn-outline-dark {
+    border: 2px solid var(--color-dark-xx);
+}
+
+
+.form-control {
+    background-color: E9EFF2 !important ;
+    border: 2px solid E9EFF2;
+    border-radius: .2rem;
+    padding: 1.5rem 1rem;
+    
+}
+
+
+.register-bg {
+    background-image: url('./logo.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    padding: 3px;
+    
+}
+
+.testiomonial {
+    bottom: 10px
+}
+
+@media (max-width: 575.98px) {
+    .p-6 {
+        padding: 2rem;
+    }
+
+    .contact-box {
+        padding: 0;
+    }
+
+    .width-100 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1200px) { 
+    .register-bg {
+        min-height: 50vh;
+    }
+}
