@@ -1,0 +1,41 @@
+.conten{
+    margin: 5rem;
+}
+
+.body{
+    background-color: rgb(232, 232, 232);
+}
+
+.line{
+    margin:5rem ;
+}
+
+.contenido{
+    text-align: center;
+}
+
+.c1{
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.c0{
+    margin-left: 2rem;
+}
+
+.c10{
+    background-color: white;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+    margin-left: 12rem;
+}
+
+.c11{
+    background-color: rgb(196, 193, 193);
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 1rem;
+}
