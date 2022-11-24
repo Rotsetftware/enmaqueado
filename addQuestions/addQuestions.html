@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="addQuestions.css">
+    <title>Document</title>
+</head>
+<body class="bodi">
+    <div class="formulario"> 
+        <div class="row">
+            <div class="col-12">
+                <form >
+                    <h4 class="titulo">Crea un nuevo test</h4>
+                    <div>
+                        <p class="aviso">Escribe la pregunta y agregala al test</p>
+                    </div>
+                    <br>
+                    
+                    <form class="row g-3">
+                        <div class="col-auto">
+                            <label class="visually-hidden">Email</label>
+                            <input type="text" readonly class="form-control-plaintext" value="Agrega tu pregunta ">
+                        </div>
+                        <div class="col-auto">
+                            <label for="inputPassword2" class="visually-hidden">Password</label>
+                            <input type="text" class="form-control" id="inputPassword2" placeholder="Pregunta">
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-primary mb-3"> Agregar pregunta</button>
+                        </div>
+                    </form>
+
+                    <br>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-warning">Crear test</button>
+                    </div>
+                    <br>
+                    <div class="d-grid gap-2">
+                        <button type="button" class="btn btn-danger">Cancelar test</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--Form end-->
+</body>
+</html>
