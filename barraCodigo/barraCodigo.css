@@ -1,0 +1,17 @@
+.bodi{
+    padding: 2rem;
+    background-image:url('../welcome/fondo.png');
+    background-size:contain;  
+    min-height: 50vh;
+}
+
+.conten{
+    background-color: white;
+    border-radius: 5px;
+    padding: 2rem;
+}
+
+.con{
+    margin-left: 38rem;
+    margin-top: 16rem;
+}
