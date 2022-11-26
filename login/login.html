@@ -7,10 +7,26 @@
     <link rel="stylesheet" href="login.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
     integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="../navbar1/navbar1.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="stylesGral.css">
+    <title>Login</title>
 </head>
-<body class="bodi container-fluid">
+<nav class="navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold d-flex flex-wrap justify-content-center py-3 "" href="#">
+        <img src="https://www.uabc.mx/wp-content/uploads/2022/06/cropped-LogoUABC-100x136.png" alt="Bootstrap" width="30" height="24" class="bg-success">
+       <h2 class="">Farmaco-Game</h2></a>
+       <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link text_buttons" aria-current="page">Inicio</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text_buttons">Login</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text_buttons">Registro</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text_buttons">Opcion 2</a></li>
+        <li class="nav-item"><a href="#" class="nav-link text_buttons">Opcion 2</a></li>
+        <button class="btn btn_primary mx-1" type="button">Iniciar Sesión</button>
+        <button class="btn btn_secondary_outline mx-1" type="button">Acerca De</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <!--Navbar start-->
     <nav class="navbar navbar-expand-lg navs">
         <div class="container-fluid">
@@ -29,18 +45,26 @@
     <!--Navbar start-->
 
     <!--Form start-->
-    <div class="formulario"> 
-        <div class="row">
+    <div class="formulario py-auto my-4 m-auto text-center"> 
+        <div class="row m-auto">
             <div class="col-4">
                 <form action="">
-                    <h4 class="titulo">INICIA SESION</h4>
+                    <h1  >INICIA SESION</h1>
                     <br>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-outline-light">Continuar con Google</button> <!--Insertar icono de google-->
+                        <button type="button" class="btn btn_primary  .text_buttons " style="border: solid 1px white; color: white;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                                <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                              </svg>
+                            Continuar con Google</button> <!--Insertar icono de google-->
                     </div>
                     <br>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-outline-light">Continuar con Facebook</button> <!--Insertar icono de facebook-->
+                        <button type="button" class="btn btn-primary .text_buttons " style="border: solid 1px;">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                              </svg>
+                            Continuar con Facebook</button> <!--Insertar icono de facebook-->
                     </div>
                     <br>
                     <div>
@@ -64,8 +88,8 @@
                     </div>
                 </form>
             </div>
-            <div class="col-6 image">
-                <img src="./mascotaUABC.webp" alt="mascotaUABC">
+            <div class="col-6 text-right m-auto">
+                <img src="./mascotaUABC.webp" class="img-fluid w-75 m-auto " alt="mascotaUABC">
             </div>
         </div>
     </div>

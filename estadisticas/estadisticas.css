@@ -4,19 +4,20 @@
 
 .seConten{
     padding: 3rem;
-    color: white;
+    color: black;
 }
 
-.body{
-    background-color: rgb(232, 232, 232);
+/* .body{
+    background: #E5E5E5 ;
 }
-
+ */
 .Wbox{
     background-color: white;
-    border-radius: 6px;
+    border-radius: 610p_jormpx;
     margin: 1rem;
     padding: 1rem;
 }
+
 
 .content{
     margin: 2rem;

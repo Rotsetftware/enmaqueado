@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&display=swap");
 
 /* VARIABLES GENERALES */
-
 :root {
+
   /* VARIABLES GENERALES DE PALETA E COLORES DE UABC */
   --green-uabc: #048c3a;
   --yellow-uabc: #ffb502;
@@ -12,7 +12,7 @@
   /* ESCALA DE VERDES */
   --green-100: #048c3a;
   --green-75: #3f956f;
-  --green-50: #7fbaa1;
+  --gren-50: #7fbaa1;
   --green-25: #c0dbce;
   /* ESCALA DE AMARILLOS */
   --yellow-100: #ffb502;
@@ -26,6 +26,7 @@
   --Grey-2: #212529;
   --GreyLight: #565a5c;
   --BG-Inputs: #e9eff2;
+  --color-white: #fff
   /* VARIABLES PARA LAS LETRAS */
   --fontMons: "Montserrat", sans-serif;
 }
@@ -34,12 +35,15 @@ body {
   margin: 0;
   padding: auto;
   font-family: var(--fontMons);
+  background-color: var(--BG-Inputs);
 }
 h1 {
+  font-family: "Montserrat";
+  font-style: normal;
   font-weight: 700;
   font-size: 48px;
+  color: white;
   line-height: 52px;
-  color: var(--Black-100);
 }
 h2 {
   font-family: "Montserrat";
@@ -78,6 +82,9 @@ h6 {
   line-height: 19px;
   font-size: 16px;
 }
+ul  li a{
+  color: red;
+}
 .text_buttons {
   font-family: "Montserrat";
   font-style: normal;
@@ -87,6 +94,10 @@ h6 {
   display: flex;
   align-items: center;
   text-align: center;
+}
+.btn_amarillo{
+  border-radius: 2px;
+  background-color: var(--yellow-100);
 }
 .body_large {
   font-family: "Montserrat";
@@ -108,4 +119,37 @@ h6 {
   font-weight: 300;
   font-size: 12px;
   line-height: 15px;
+}
+.navbar {
+  background-color: white;
+  
+}
+.nav-link{
+  color: var(--Black-100);
+}
+.nav-link:hover{
+  color: var(--green-100);
+}
+.bg-header{
+  background-color: var(--green-100);
+  width: 100%;
+  height: 90vh;
+  padding: 6rem 6rem;
+}
+.btn{
+  font-weight: 600;
+}
+.btn_primary, .btn_primary:hover{
+  background-color: var(--green-100);
+}
+.btn_secondary, .btn_secondary:hover{
+  background-color: var(--green-25);
+}
+.btn_secondary_outline, .btn_secondary_outline:hover{
+  border:solid 1px var(--yellow-100);
+  color: var(--yellow-100);
+  font-weight: 800;
+}
+.second img{
+  width: 10rem;
 }
