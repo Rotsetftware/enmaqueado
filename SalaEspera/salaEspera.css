@@ -1,0 +1,19 @@
+.bodi{
+    background-color: rgb(232, 232, 232);
+}
+
+.conten{
+    background-color: white;
+}
+
+.titulo{
+    text-align: center;
+    margin: 2rem;
+    color: #048C3A;
+}
+
+.players{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
