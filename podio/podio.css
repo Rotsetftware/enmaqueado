@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    padding: auto;
+    background-color: #ffb502;
+  }
+ .titulo{
+  align-items: center;
+  text-align: center;
+ }
+h1{
+  font-size: 25px !important;
+  color: black !important; 
+}
