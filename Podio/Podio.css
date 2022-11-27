@@ -1,0 +1,21 @@
+.body{
+    background-color: rgb(232, 232, 232);
+}
+
+.conten{
+    background-color: white;
+    padding-left: 9rem;
+    padding-top: 1rem;
+}
+
+.dos,.tres{
+    margin-top: 4rem;
+}
+
+.cuatro, .cinco{
+    margin-top: 8rem;
+}
+
+.lugar{
+    text-align: center;
+}
