@@ -1,19 +1,19 @@
 .formulario{
     text-align: center;
-    margin-top: 59px;
+   /*  margin-top: 59px;
     margin-left: 250px;
     margin-right: 250px;
-    margin-bottom: 59px;
-    background-color: #048C3A;
+    margin-bottom: 59px; */
+    background-color: white;
     padding: 50px;
     border-radius: 15px;
-    width:64rem;
-    height: 35rem;
+    /* width:64rem;
+    height: 35rem; */
 }
 
 .titulo{
     text-align: center;
-    color: white;
+    color: black;
 }
 
 
@@ -29,4 +29,8 @@
 .nab{
     background-color: white;
     color: black;
+}
+
+.secon{
+    margin-top: 10rem;
 }

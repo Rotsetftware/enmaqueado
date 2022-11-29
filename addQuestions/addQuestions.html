@@ -12,9 +12,9 @@
 <body class="bodi">
     <div class="formulario"> 
         <div class="row">
-            <div class="col-12">
+            <h4 class="titulo">CREAR UN NUEVO TEST</h4>
+            <div class="col-8">
                 <form >
-                    <h4 class="titulo">Crea un nuevo test</h4>
                     <div>
                         <p class="aviso">Escribe la pregunta y agregala al test</p>
                     </div>
@@ -27,22 +27,46 @@
                         </div>
                         <div class="col-auto">
                             <label for="inputPassword2" class="visually-hidden">Password</label>
-                            <input type="text" class="form-control" id="inputPassword2" placeholder="Pregunta">
+                            <input type="text" class="form-control" placeholder="Pregunta">
+                        </div>
+                        <br>
+                        <div class="col-auto">
+                            <label>Respuesta Correcta</label>
+                            <input type="text" class="form-control" style="background-color:rgb(157, 206, 157) ;" placeholder="Respuesta Correcta">
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-primary mb-3"> Agregar pregunta</button>
+                            <label>Respuestas Erronea</label>
+                            <input type="text" class="form-control" placeholder="Respuesta Erronea">
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" placeholder="Respuesta Erronea">
+                        </div>
+                        <div class="col-auto">
+                            <input type="text" class="form-control" placeholder="Respuesta Erronea">
                         </div>
                     </form>
 
                     <br>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-warning">Crear test</button>
+                        <button type="button" class="btn btn-success">Agregar pregunta</button>
                     </div>
                     <br>
                     <div class="d-grid gap-2">
-                        <button type="button" class="btn btn-danger">Cancelar test</button>
+                        <button type="button" class="btn btn-danger">Cancelar Pregunta</button>
                     </div>
                 </form>
+            </div>
+
+            <div class="col-4 secon">
+                    <div>
+                        <label for="">Tiempo de la pregunta</label>
+                        <input type="text" placeholder="tiempo en segundos">
+                    </div>
+                <br>
+                    <div>
+                        <label for="">Puntaje de la pregunta</label>
+                        <input type="text" placeholder="puntaje">
+                    </div>
             </div>
         </div>
     </div>
